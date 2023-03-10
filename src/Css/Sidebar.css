@@ -24,6 +24,7 @@
   .top-section {
     display: flex;
     align-items: center;
+    gap: 4rem;
     padding: 20px 15px;
   }
   
