@@ -15,6 +15,11 @@ function Sidebar({ children }) {
             icon: <HomeOutlined />
         },
         {
+            path: "/login",
+            name: "login",
+            icon: <WindowsOutlined />
+        },
+        {
             path: "/accepted",
             name: "accepted",
             icon: <WindowsOutlined />
