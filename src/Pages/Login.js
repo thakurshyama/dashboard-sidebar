@@ -30,7 +30,7 @@ const Login = () => {
       const formData = new FormData(formElement);
       console.log(formData)
       const formDataJSON = Object.fromEntries(formData);
-      const response = await axios.post('http://139.59.60.119:7050/v1/admin/login', formDataJSON);
+      const response = await axios.post('http://139.59.22.125:7050/v1/admin/login', formDataJSON);
       const token = response.data.items;
       if (!token) {
         alert('Unable to login. Please try after some time.');
